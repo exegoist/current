@@ -1,0 +1,22 @@
+{
+  "name": "current",
+  "authors": [
+    "exegoist <exegoist@icloud.com>"
+  ],
+  "description": "single page web project",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation": "~5.5.3"
+  }
+}
