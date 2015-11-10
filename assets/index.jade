@@ -2,7 +2,7 @@ doctype html
 html(lang="ru")
   head
     title Test page
-    link(ref="stylesheet", href="/css/app.css")
+    link(rel="stylesheet", href="/css/app.css")
     script(type="text/javascript", src="/js/app.js")
   body
     .contain-to-grid.fixed
@@ -26,17 +26,44 @@ html(lang="ru")
               a(href="#") ЛИЦЕНЗИЯ
             li
               a(href="#") КОНТАКТЫ
-          ul.right
-            li
-              a(href="tel:80441234567") 80441234567
-    .contain-to-grid
-        .row
-          .columns.large-5
-            h1 Построение современных кабельных систем
-            p.
-              Компания "СТРОЙСЕРВИС УА" выполняет самые сложные и высокотехнологичные работы в сфере построения современных кабельных систем с применением надежных комплектующих и компонентов от лучших мировых производителей.
-            a(href="#", class="button success") СДЕЛАТЬ ЗАКАЗ
-          .columns.large-7
-            img(src="/img/cabels.jpg", alt="Построение современных кабельных систем")
-  
+                        
+    .container
+      .sections
+        .section.section_1
+          .center
+            .row
+              .columns.large-5
+                h1 Построение современных кабельных систем
+                p.
+                  Компания "СТРОЙСЕРВИС УА" выполняет самые сложные и высокотехнологичные работы в сфере построения современных кабельных систем с применением надежных комплектующих и компонентов от лучших мировых производителей.
+                a(href="#", class="button success") СДЕЛАТЬ ЗАКАЗ
+              .columns.large-7
+                a(href="tel:80441234567") 80441234567
+                img(src="/img/cabels.jpg", alt="Построение современных кабельных систем")
+          .bottom
+            .row
+              .columns.large-3
+                ul
+                  li более 10 лет
+                  li на рынке
+              .columns.large-3
+                ul
+                  li более 10 лет
+                  li на рынке
+              .columns.large-3
+                ul
+                  li более 10 лет
+                  li на рынке
+              .columns.large-3
+                ul
+                  li более 10 лет
+                  li на рынке
               
+        .section.section_2
+          p section_2
+        .section.section_3
+          p section_3
+        .section.section_4
+          p section_4
+        .section.section_5
+          p section_5
