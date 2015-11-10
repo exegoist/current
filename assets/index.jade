@@ -5,4 +5,38 @@ html(lang="ru")
     link(ref="stylesheet", href="/css/app.css")
     script(type="text/javascript", src="/js/app.js")
   body
-    p Hello World!
+    .contain-to-grid.fixed
+      nav(class="top-bar", data-topbar, role="navigation")
+        ul.title-area
+          li.name
+            h1
+              a(href="/") СТРОЙСЕРВИС UA
+          li.toggle-topbar.menu-icon
+            a(href="#")
+              span
+        section.top-bar-section
+          ul.left
+            li.active
+              a(href="#") О НАС
+            li
+              a(href="#") НАПРАВЛЕНИЯ
+            li
+              a(href="#") НАШИ РАБОТЫ
+            li
+              a(href="#") ЛИЦЕНЗИЯ
+            li
+              a(href="#") КОНТАКТЫ
+          ul.right
+            li
+              a(href="tel:80441234567") 80441234567
+    .contain-to-grid
+        .row
+          .columns.large-5
+            h1 Построение современных кабельных систем
+            p.
+              Компания "СТРОЙСЕРВИС УА" выполняет самые сложные и высокотехнологичные работы в сфере построения современных кабельных систем с применением надежных комплектующих и компонентов от лучших мировых производителей.
+            a(href="#", class="button success") СДЕЛАТЬ ЗАКАЗ
+          .columns.large-7
+            img(src="/img/cabels.jpg", alt="Построение современных кабельных систем")
+  
+              
