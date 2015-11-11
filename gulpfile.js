@@ -9,7 +9,8 @@ gulp.task('styles', function(){
   ])
   .pipe(sass({
     includePaths: [
-      './bower_components/foundation/scss'
+      './bower_components/foundation/scss',
+      './bower_components/fullpage.js'
     ]
   }))
   .pipe(concat('app.css'))
@@ -29,8 +30,9 @@ gulp.task('jade', function(){
 gulp.task('scripts', function(){
   return gulp.src([
     './bower_components/jquery/dist/jquery.js',
-    './bower_components/jquery-mousewheel/jquery.mousewheel.js',
-    './bower_components/foundation/js/foundation.js',
+    './bower_components/fullpage.js/jquery.fullPage.js',
+    './bower_components/foundation/js/foundation/foundation.js',
+    './bower_components/foundation/js/foundation/foundation.topbar.js',
     './assets/scripts/app.js'
   ])
   .pipe(concat('app.js'))
