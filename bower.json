@@ -17,7 +17,7 @@
     "tests"
   ],
   "devDependencies": {
-    "foundation": "~5.5.3",
-    "fullpage.js": "~2.7.4"
+    "fullpage.js": "~2.7.4",
+    "bootstrap-sass": "~3.3.5"
   }
 }
