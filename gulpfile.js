@@ -21,7 +21,7 @@ gulp.task('styles', function(){
 
 gulp.task('jade', function(){
   return gulp.src([
-    './assets/**/*.jade'
+    './assets/index.jade'
   ])
   .pipe(jade({
     pretty: true
