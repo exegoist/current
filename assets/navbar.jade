@@ -10,17 +10,17 @@ nav.navbar.navbar-inverse.navbar-fixed-top
     
     .collapse.navbar-collapse#bs-navbar-collapse-1
       ul.nav.navbar-nav
-        li.active
-          a(href="#") О НАС 
+        li.active(data-menuanchor="about")
+          a(href="#about") О НАС 
             span.sr-only (current)
-        li
-          a(href="#") НАПРАВЛЕНИЯ
-        li
-          a(href="#") НАШИ РАБОТЫ
-        li
-          a(href="#") ЛИЦЕНЗИЯ
-        li
-          a(href="#") КОНТАКТЫ
+        li(data-menuanchor="directions")
+          a(href="#directions") НАПРАВЛЕНИЯ
+        li(data-menuanchor="clients")
+          a(href="#clients") НАШИ РАБОТЫ
+        li(data-menuanchor="license")
+          a(href="#license") ЛИЦЕНЗИЯ
+        li(data-menuanchor="contacts")
+          a(href="#contacts") КОНТАКТЫ
       ul.nav.navbar-nav.navbar-right
         li.divider
         li
