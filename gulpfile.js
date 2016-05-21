@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
-var jade = require('gulp-jade');
+var jade = require('gulp-pug');
 var gls = require('gulp-live-server');
 
 
@@ -21,7 +21,7 @@ gulp.task('styles', function(){
 
 gulp.task('jade', function(){
   return gulp.src([
-    './assets/index.jade'
+    './assets/index.pug'
   ])
   .pipe(jade({
     pretty: true
@@ -52,7 +52,7 @@ gulp.task('images', function(){
 
 gulp.task('watch', ['styles','scripts','images','jade'], function(){
   gulp.watch(['./assets/styles/**/*.sass', './assets/styles/**/*.scss'], ['styles']);
-  gulp.watch('./assets/**/*.jade', ['jade']);
+  gulp.watch('./assets/**/*.pug', ['jade']);
   gulp.watch('./assets/scripts/**/*.js', ['scripts']);
   var server = gls.static('./build', 8080);
   server.start();
