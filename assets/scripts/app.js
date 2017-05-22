@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-      sectionsColor: ['rgba(1, 133, 207, 0.8)', 'rgba(75, 191, 195, 0.5)', '#7BAABE', 'whitesmoke', '#000'],
+      sectionsColor: ['rgba(1, 133, 207, 0.8)', 'rgba(75, 191, 195, 0.5)', 'rgba(41, 101, 212, 0.83)', 'rgba(75, 191, 195, 0.5)', '#000'],
       anchors:['about','directions','clients','license','contacts']
     });
 });
