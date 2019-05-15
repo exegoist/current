@@ -1,6 +1,6 @@
 ### как развернуть? просто
 
-  1. `git clone https://github.com/exegoist/current.git`
+  1. `git clone https://github.com/alexmazorchuk/ssua.git`
   или в десктоп-версии github :)
 
   2. `npm install -g pug`
@@ -15,5 +15,8 @@
   6. устанавливаем фреймворки
      `bower install`
 
-  7. стартуем проект
+  7. устанавливаем соц-иконки
+     `bower install bootstrap-social`
+	 
+  8. стартуем проект
      `gulp`

@@ -12,6 +12,7 @@ gulp.task('styles', function(){
   .pipe(sass({
     includePaths: [
       './bower_components/bootstrap-sass/assets/stylesheets',
+      './bower_components/bootstrap-social',
       './bower_components/fullpage.js'
     ]
   }))
